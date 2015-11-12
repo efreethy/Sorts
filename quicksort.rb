@@ -1,4 +1,13 @@
 class Array
+
+    # space complexity
+    # O(n) worst
+    # O(log n) AVG
+
+    # time complexity
+    # O(n^2) worst
+    # AVG O(n * log(n))
+
     # naive solution AKA: garbage
     def baby_quick_sort!
         return self if length < 2
