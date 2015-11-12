@@ -31,5 +31,14 @@ class Array
       pivot
     end
 
+    private
+
+    def swap!(idx1, idx2)
+     if idx1 === idx2
+       return
+     else
+       self[idx1], self[idx2] = self[idx1], self[idx2]
+     end
+   end
 
 end
